@@ -48,7 +48,7 @@ const fruits = {
     fruit2: "banana"
 }
 
-const{fruit1: apple, fruit2 }= fruits
+const{fruit1: apple, fruit2 } = fruits
 console.log(apple) //apple
 console.log(fruit2) //banana
 
