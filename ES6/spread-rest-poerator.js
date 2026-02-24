@@ -6,10 +6,10 @@ console.log(arr2); // [0, 1, 2, 3]
 
 
 // rest operator - Collects remaining elements or properties into a new array or object.
-const [first, ...rest] = [1, 2, 3, 4];
+const [first, ...ggg] = [1, 2, 3, 4];
 
 console.log(first); // 1
-console.log(rest);  // [2, 3, 4]
+console.log(ggg);  // [2, 3, 4]
 
 
 const { name, ...others } = { name: "Tenzin", age: 26, city: "Sydney" };
